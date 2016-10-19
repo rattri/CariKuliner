@@ -1,0 +1,224 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+
+    android:weightSum="1"
+    android:background="#ffff">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#fe6400"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:paddingTop="5dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/addbtn"
+            android:src="@drawable/ic_add2"
+            android:layout_marginLeft="3dp"
+            android:layout_gravity="center"
+            android:background="#fe6400" />
+
+        <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TAMBAH KULINER"
+        android:onClick="buttonAdd"
+        android:textColor="#ffff"
+            android:id="@+id/buttonAdd"
+
+            android:textSize="6pt"
+        android:textIsSelectable="false"
+
+        android:layout_marginRight="10dp"
+            android:background="#fe6400"
+            android:layout_gravity="center"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView9"
+            android:src="@drawable/ic_login"
+            android:layout_gravity="center"
+            android:background="#fe6400"
+            android:paddingLeft="2dp"
+            android:paddingRight="7dp" />
+
+        <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text=""
+        android:id="@+id/login"
+            android:textStyle="bold"
+        android:textSize="6pt"
+        android:onClick="login"
+        android:textColor="#ffff"
+        android:background="#fe6400"
+
+            android:layout_gravity="center"
+            android:layout_marginRight="2dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text=""
+        android:id="@+id/register"
+        android:textStyle="bold"
+        android:textSize="6pt"
+        android:onClick="register"
+        android:textColor="#ffff"
+        android:background="#fe6400"
+
+        android:layout_gravity="center" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="351dp"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:layout_marginTop="10pt">
+
+
+
+
+
+        </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="bottom"
+            android:gravity="center_vertical|center_horizontal"
+            android:paddingBottom="100dp">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageView3"
+                    android:src="@drawable/logo"
+                    android:layout_gravity="center" />
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center">
+
+                    <EditText
+                        android:layout_width="100pt"
+                        android:layout_height="20pt"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="10dp"
+                        android:id="@+id/editSearch"
+                        android:inputType="text"
+                        android:background="#ffedf2ff"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="5dp"
+                        android:hint="contoh: ayam goreng "
+                        android:textAlignment="center"
+                        android:paddingLeft="10dp"
+                        android:layout_gravity="center_horizontal" />
+
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/buttonSearch"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginBottom="8dp"
+                        android:src="@drawable/ic_search_icon"
+                        android:nestedScrollingEnabled="false"
+                        android:onClick="search"
+                        android:background="#FFFF"
+                        android:layout_gravity="center_horizontal" />
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="10pt"
+                android:layout_marginRight="20dp"
+                android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal">
+
+
+                <ImageButton
+                    android:layout_width="30dp"
+                    android:layout_height="29dp"
+                    android:id="@+id/btn_tempat"
+                    android:src="@drawable/tempat"
+                    android:layout_marginLeft="10dp"
+                    android:background="#FFFF"
+                    android:layout_gravity="bottom" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Tempat Kuliner"
+                    android:id="@+id/venue"
+                    android:textColor="#fe6400"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_gravity="center_horizontal|bottom" />
+
+                <ImageButton
+                    android:layout_width="37dp"
+                    android:layout_height="34dp"
+                    android:id="@+id/btn_credit"
+                    android:src="@drawable/credit"
+                    android:background="#FFFF"
+                    android:layout_gravity="center_horizontal|bottom" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Credit"
+                    android:id="@+id/credit"
+                    android:textColor="#fe6400"
+                    android:layout_marginRight="10dp"
+                    android:onClick="credit"
+                    android:layout_marginBottom="2dp"
+                    android:layout_gravity="center_horizontal|bottom" />
+
+
+            </LinearLayout>
+
+    </RelativeLayout>
+
+
+</LinearLayout>

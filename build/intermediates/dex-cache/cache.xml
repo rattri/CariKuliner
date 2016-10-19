@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\android\Cari Kuliner\CariKuliner\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="21.1.2"
+        sha1="3955d4d2e3bc29fef5c0df01bdc89f7a989bf10a">
+        <dex dex="D:\android\Cari Kuliner\CariKuliner\app\build\intermediates\pre-dexed\debug\instant-run_0132381016943e085e5f5bd2e9238b7c8d4d4803.jar" />
+    </item>
+    <item
+        jar="D:\android\Cari Kuliner\CariKuliner\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\jars\classes.jar"
+        jumboMode="true"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="D:\android\Cari Kuliner\CariKuliner\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-21.0.3_97cc43cc148fbf441e4a59474c2128a460631a96.jar" />
+    </item>
+    <item
+        jar="D:\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jumboMode="true"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="D:\android\Cari Kuliner\CariKuliner\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3_2c7b3f93a4765de67fc456e30fee656c798d7e65.jar" />
+    </item>
+    <item
+        jar="D:\android\Cari Kuliner\CariKuliner\app\build\intermediates\exploded-aar\com.google.android.gms\play-services\6.5.87\jars\classes.jar"
+        jumboMode="true"
+        revision="21.1.2"
+        sha1="dd9247ea0fabe8ee479638c4b4a23e93752be256">
+        <dex dex="D:\android\Cari Kuliner\CariKuliner\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-6.5.87_11bc65f16f5c5ff134aa59356648b300e1a6fc6a.jar" />
+    </item>
+    <item
+        jar="D:\android\Cari Kuliner\CariKuliner\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\jars\classes.jar"
+        jumboMode="true"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="D:\android\Cari Kuliner\CariKuliner\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-21.0.3_1a77fc0ceba0e877dc3abd9efbdd7805198f310e.jar" />
+    </item>
+    <item
+        jar="D:\android\Cari Kuliner\CariKuliner\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="21.1.2"
+        sha1="8de7eea37d002bc2303d2d3e79f2b271e378a195">
+        <dex dex="D:\android\Cari Kuliner\CariKuliner\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_248fcec4bb8102ce0b3af092e1767783904b3521.jar" />
+    </item>
+    <item
+        jar="D:\android\Cari Kuliner\CariKuliner\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\jars\libs\internal_impl-21.0.3.jar"
+        jumboMode="true"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="D:\android\Cari Kuliner\CariKuliner\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3_1913fea4c06e2d849b609a4d9d3c894035d640c1.jar" />
+    </item>
+
+</items>

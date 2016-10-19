@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffff"
+    android:paddingLeft="10dp"
+    android:paddingTop="5dp">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="3dp"
+        android:paddingTop="3dp">
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/text_nama"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="8pt"
+            android:paddingBottom="3dp"
+            android:textColor="#ff4c4c4c" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:paddingBottom="3dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Rp"
+                android:id="@+id/text_rp"
+                android:textSize="7pt"
+                android:layout_marginLeft="5dp"
+                android:textColor="#ff5a5a5a" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/text_harga"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textSize="7pt"
+                android:textColor="#ff5a5a5a" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_tempat"
+        android:layout_marginLeft="10dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="7pt"
+        android:paddingBottom="2dp"
+        android:textColor="#ff5f5f5f"
+        android:layout_marginBottom="5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20pt"
+        android:id="@+id/text_id"
+        android:visibility="gone"
+        />
+
+    <TextView
+        android:id="@+id/text_jarak"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#acacac"
+        android:paddingBottom="2dip"
+        android:layout_marginLeft="20pt"/>
+    <TextView
+        android:id="@+id/text_id_kul"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#acacac"
+        android:paddingBottom="2dip"
+        android:visibility="gone"
+        android:layout_marginLeft="20pt"/>
+
+</LinearLayout>

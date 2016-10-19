@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffff"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="20pt"
+        android:background="#fe6400"
+        >
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:padding="2dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="2dp">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/quit"
+                android:src="@drawable/quit"
+                android:background="#fe6400" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Quit"
+                android:id="@+id/textView15"
+                android:textColor="#FFFF"
+                android:textSize="10pt"
+                android:textStyle="bold"
+                android:layout_marginTop="4dp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pilih selesei jika tidak ada menu  yang ditambahkan lagi"
+        android:id="@+id/textView4"
+        android:textColor="#f61f201f"
+        android:textSize="6pt"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10pt"
+        android:visibility="gone"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10pt">
+
+        <RadioGroup
+            android:id="@+id/RadioGroupMenu"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Makanan"
+            android:id="@+id/radioMakanan" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Minuman"
+            android:id="@+id/radioMinuman" />
+        </RadioGroup>
+
+        </LinearLayout>
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="5pt"
+        android:id="@+id/TextMenu"
+        android:width="80pt"
+        android:visibility="gone"
+
+        />
+
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10pt"
+
+        android:padding="3pt">
+
+
+        <TextView
+            android:layout_width="60pt"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Nama Menu"
+            android:id="@+id/nama"
+            android:textColor="#f61f201f" />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5pt"
+            android:id="@+id/edit_nama"
+            android:width="80pt"
+            android:background="#ffedf2ff"
+            android:padding="2pt" />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10pt"
+        android:layout_marginBottom="10pt"
+        android:padding="3pt">
+
+
+        <TextView
+            android:layout_width="60pt"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Harga"
+            android:id="@+id/textView3"
+            android:textColor="#f61f201f" />
+
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5pt"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/edit_harga"
+            android:background="#ffedf2ff"
+            android:padding="2pt" />
+
+    </LinearLayout>
+
+
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_marginLeft="10pt"
+            android:layout_width="76dp"
+            android:layout_height="35dp"
+            android:text="Tambah"
+            android:layout_marginRight="5pt"
+            android:layout_marginTop="5pt"
+            android:id="@+id/buttonTambah"
+            android:onClick="tambah"
+            android:background="#fe6400"
+            android:textColor="#FFFF"
+            android:textStyle="bold"
+            android:layout_gravity="right" />
+
+
+
+
+
+
+
+</LinearLayout>
